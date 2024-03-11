@@ -1,0 +1,35 @@
+/* styles.css */
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: aqua;
+}
+
+.checkbox {
+  margin-right: 10px;
+  color: peru;
+  background-color: pink;
+}
+
+.MuiButton-contained .MuiButton-label {
+  color: pink;
+}
+
+.MuiButton-outlined {
+  border-color: pink; /* Your custom border color */
+  color: pink; /* Your custom text color */
+}
+
+.MuiAvatar {
+  color: pink;
+}
+
+.MuiCheckbox-root {
+  color: green; /* Change the color to red */
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: pink; /* Change the color to blue */
+}
